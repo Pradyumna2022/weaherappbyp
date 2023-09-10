@@ -17,6 +17,8 @@ class WhetherPage extends StatefulWidget {
 }
 
 class _WhetherPageState extends State<WhetherPage> {
+
+  // **********************  gone open weather website and use own apikey **************
   Future<Map<String,dynamic>> getWeatherApiData() async {
     try{
       String countryName = 'America';
